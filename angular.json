@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "uri-client-side"
+    }
+  },
+  "defaultProject": "uri-client-side",
+  "cli": {
+    "analytics": false
+  }
 }

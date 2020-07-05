@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  height: 13vh;
+  width: 100%;
+//   background: url("/assets/images/bg-image3.jpg");
+
+  #artistName {
+    font: normal normal normal 33px/1.1em Basic, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    color: #464545;
+    letter-spacing: 9px;
+    text-align: center;
+    padding: 18px;
+    position: absolute;
+  }
+  .header-center {
+    height: 100%;
+    position: relative;
+    top: 50%;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #5c5c5c;
+
+    
+    text-align: center;
+
+    a {
+      margin: 20px;
+      letter-spacing: 1px;
+      color: rgb(15, 15, 15);
+      text-decoration: none;
+      color: #7a7a7a;
+
+      &:hover {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
+    }
+
+    .current {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+  }
+}

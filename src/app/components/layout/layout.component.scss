@@ -1,0 +1,28 @@
+section {
+  display: block;
+  position: relative;
+}
+
+section::after {
+  content: "";
+  background: url("/assets/images/bg-image3.jpg");
+  // opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+main {
+  width: 80%;
+  height: 1000vh;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 75%);
+  margin-top: 70px;
+}
+
+footer {
+  height: 10vh
+}

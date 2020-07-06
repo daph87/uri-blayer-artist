@@ -12,7 +12,7 @@
 $headerHeight: 70px;
 .header {
   background: url('/assets/images/bg-image3.jpg');
-  position: fixed;
+  position: sticky;
   top: 0;
   height: headerHeight;
   width: 100%;

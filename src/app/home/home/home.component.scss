@@ -1,7 +1,104 @@
-main {
-  width: 80%;
-  height: 1000vh;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 75%);
-  // margin-top: 70px;
+.container-fluid {
+  position: relative;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 0);
+  text-align: center;
+  min-height: 85vh;
+
+  .no-indicators {
+    width: 100%;
+
+    img {
+      max-height: 75vh;
+      -o-object-fit: cover;
+      object-fit: cover;
+      max-width: 80%;
+    }
+
+    &:focus {
+      outline-width: 0;
+    }
+
+    .carousel-control-prev {
+      .carousel-control-prev-icon {
+        background-image: none;
+        border: 7px solid #000;
+        border-right: 0;
+        border-top: 0;
+        transform: translate(45deg);
+      }
+    }
+  }
+
+  &:focus {
+    outline-width: 0;
+  }
+}
+
+::ng-deep {
+  .carousel-item {
+    -webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    display: block;
+    opacity: 0;
+  }
+
+  .carousel-item.active {
+    position: relative;
+    opacity: 1;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: none;
+    border: 7px solid #000;
+    border-right: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+  }
+
+  .carousel-control-next-icon {
+    background-image: none;
+    border: 7px solid #000;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .container-fluid {
+    .no-indicators {
+      img {
+        max-height: 60vh;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .container-fluid {
+    .no-indicators {
+      img {
+        max-height: 50vh;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container-fluid {
+    section {
+      margin-top: 0;
+    }
+
+    .no-indicators {
+      img {
+        max-width: 100%;
+        max-height: 45vh;
+      }
+    }
+  }
 }

@@ -1,5 +1,9 @@
-<div class="wrapper">
-    <main>
-        
-    </main>
+<div class='container-fluid'>
+  <ngb-carousel class="no-indicators">
+
+    <ng-template ngbSlide *ngFor="let picture of carousel">
+      <img src="{{picture.img}}" alt="picture.name" loading="lazy" height="450px">
+    </ng-template>
+
+  </ngb-carousel>
 </div>

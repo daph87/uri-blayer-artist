@@ -1,21 +1,12 @@
-// .header::after {
-//   content: "";
-//   background: url('/assets/images/bg-image3.jpg');
-//   opacity: 0.7;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-//   position: absolute;
-//   z-index: -1;   
-// }
 $headerHeight: 70px;
+
 .header {
   background: url('/assets/images/bg2.jpeg');
   position: sticky;
   top: 0;
   height: headerHeight;
   width: 100%;
+  z-index: 9;
 
   .head {
     display: inline-block;

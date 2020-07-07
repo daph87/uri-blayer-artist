@@ -3,9 +3,14 @@
   <h1>1997 to 2002</h1>
 
   <div class="images">
+ <!-- <ng-container *ngIf="paintings97">
+
+      <img *ngFor="let image of paintings97" src="assets/images/{{image.year}}/{{image.src}}" alt="uri blayer">
+
+    </ng-container>  -->
     <ng-container *ngIf="paintings">
 
-      <img *ngFor="let image of paintings" src="assets/on-the-field/{{image.src}}" alt="uri blayer">
+      <img *ngFor="let image of paintings" src="assets/images/{{image.year}}/{{image.src}}" alt="uri blayer">
 
     </ng-container>
   </div>

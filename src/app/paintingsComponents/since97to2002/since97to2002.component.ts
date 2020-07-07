@@ -8,12 +8,22 @@ import { Image } from 'src/models/image';
 })
 export class Since97to2002Component implements OnInit {
   public paintings: Image[];
+  public paintings97: Image[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
     // get the paintings
-    fetch('assets/json/field.json').then(data => data.json())
-    .then(paintings => this.paintings = paintings);
+    fetch('assets/json/artworks.json').then(data => data.json())
+      .then(paintings => {
+        this.paintings = paintings;
+        paintings.map((painting) => {
+          if (painting.year === "1997") {
+            this.paintings97.push(painting);
+            console.log(this.paintings97)
+          }
+
+        })
+      })
   }
 }

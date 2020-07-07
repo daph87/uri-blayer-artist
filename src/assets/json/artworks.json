@@ -186,7 +186,7 @@
         
     },
     {
-        "src":"hanalei-valley.tif",
+        "src":"hanalei-valley.jpg",
         "name":"Hanalei Valley",
         "material":"",
         "size":"",
@@ -195,7 +195,7 @@
         
     },
     {
-        "src":"maliko-bay.tif",
+        "src":"maliko-bay.jpg",
         "name":"Maliko Bay",
         "material":"",
         "size":"",
@@ -204,7 +204,7 @@
         
     },
     {
-        "src":"taro-fields.tif",
+        "src":"taro-fields.jpg",
         "name":"Taro Fields",
         "material":"",
         "size":"",
@@ -266,7 +266,7 @@
         
     },
     {
-        "src":"waioli-church.tif",
+        "src":"waioli-church.jpg",
         "name":"Waioli Church",
         "material":"",
         "size":"",
@@ -770,7 +770,7 @@
         
     },
     {
-        "src":"houses-painting-03-2008",
+        "src":"houses-painting-03-2008.jpg",
         "name":"Untitled",
         "material":"",
         "size":"",
@@ -1041,7 +1041,7 @@
         
     },
     {
-        "src":"beach-view-2011.jpg",
+        "src":"beach-view-2011.JPG",
         "name":"Untitled",
         "material":"",
         "size":"",
@@ -1095,7 +1095,7 @@
         
     },
     {
-        "src":"waipa-2010.jpg",
+        "src":"waipa-2011.jpg",
         "name":"Waipa",
         "material":"",
         "size":"",
@@ -1104,7 +1104,7 @@
         
     },
     {
-        "src":"woods-on-beach.jpg",
+        "src":"woods-on-beach-2011.jpg",
         "name":"Untitled",
         "material":"",
         "size":"",
@@ -1561,16 +1561,7 @@
         "year":"2013",
         "id":172
         
-    } ,
-    {
-        "src":"israeli-desert-painting.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"2013",
-        "id":173
-        
-    } ,
+    },
     {
         "src":"red-dunes-desert.jpg",
         "name":"Untitled",
@@ -1633,16 +1624,7 @@
         "year":"2013",
         "id":180
         
-    } ,
-    {
-        "src":"israeli-desert-painting.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"2013",
-        "id":181
-        
-    } ,
+    },
     {
         "src":"village-panorama-painting-2013.jpg",
         "name":"Untitled",

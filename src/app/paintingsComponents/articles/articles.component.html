@@ -1,0 +1,12 @@
+<div class="wrapper">
+
+    <ng-container *ngIf="articles">
+
+        <div class="article" *ngFor="let article of articles">
+            <h2>{{ article.name }}</h2>
+            <img *ngFor="let src of article.images" src="assets/articles/{{src}}" [alt]="article.name">
+        </div>
+
+    </ng-container>
+
+</div>

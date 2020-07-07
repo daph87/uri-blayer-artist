@@ -11,7 +11,7 @@
 // }
 $headerHeight: 70px;
 .header {
-  background: url('/assets/images/bg-image3.jpg');
+  background: url('/assets/images/bg2.jpeg');
   position: sticky;
   top: 0;
   height: headerHeight;
@@ -38,7 +38,7 @@ $headerHeight: 70px;
     height: 100%;
     vertical-align: middle;
     text-transform: uppercase;
-    font-size: 20px;
+    // font-size: 20px;
     color: #5c5c5c;
     text-align: center;
     display: inline-block;
@@ -46,8 +46,10 @@ $headerHeight: 70px;
     margin-top: -70px;
 
     a {
-      margin: 20px;
-      letter-spacing: 1px;
+      // margin: 20px;
+      // letter-spacing: 1px;
+      margin: 10px;
+      letter-spacing: 0.5px;
       color: rgb(15, 15, 15);
       text-decoration: none;
       color: #7a7a7a;

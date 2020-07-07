@@ -1,0 +1,13 @@
+<div class="wrapper">
+
+  <h1>1997 to 2002</h1>
+
+  <div class="images">
+    <ng-container *ngIf="paintings">
+
+      <img *ngFor="let image of paintings" src="assets/on-the-field/{{image.src}}" alt="uri blayer">
+
+    </ng-container>
+  </div>
+
+</div>

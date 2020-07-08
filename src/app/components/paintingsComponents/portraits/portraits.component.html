@@ -1,0 +1,15 @@
+<div class="wrapper">
+
+    <h1>Portraits</h1>
+  
+    <div class="images">
+  
+      <ng-container *ngIf="portraits">
+  
+        <img *ngFor="let image of portraits" src="assets/images/portraits/{{image.src}}" alt="{{image.name}} Uri Blayer">
+  
+      </ng-container>
+    </div>
+  
+  </div>
+

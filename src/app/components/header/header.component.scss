@@ -1,13 +1,63 @@
 $headerHeight: 70px;
+$fontSize: 16px;
+
+.test {
+  background-color: red;
+}
+
+.menuDropDown {
+  display: none;
+  text-transform: uppercase;
+  position: absolute;
+  background-color: white;
+
+  a {
+    display: block;
+    color: #5c5c5c;
+    margin-top: 10px;
+  }
+
+  div {
+    margin-top: 10px;
+    cursor: pointer;
+
+    a {
+      display: inline-block;
+    }
+
+    .articles {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-left: 3px solid;
+      border-bottom: 3px solid;
+      transform: rotate(45deg);
+    }
+  }
+}
 
 .header {
-  // background: url('/assets/images/bg2.jpeg');
   background-color: #fff;
   position: sticky;
   top: 0;
-  height: headerHeight;
+  height: $headerHeight;
   width: 100%;
   z-index: 9;
+
+  .phoneMenu {
+    display: none;
+    width: 40px;
+    margin: 20px;
+    float: right;
+    cursor: pointer;
+
+    .line {
+      display: block;
+      width: 100%;
+      margin: 5px;
+      border: 3px solid;
+    }
+  }
 
   .head {
     display: inline-block;
@@ -15,7 +65,7 @@ $headerHeight: 70px;
     #artistName {
       font: normal normal normal 33px/1.1em Basic, sans-serif;
       font-size: 2em;
-      margin: 0;
+      padding: 5px;
       color: #464545;
       letter-spacing: 9px;
       text-align: center;
@@ -27,24 +77,36 @@ $headerHeight: 70px;
   }
 
   .header-center {
-    height: 100%;
-    vertical-align: middle;
     text-transform: uppercase;
-    // font-size: 20px;
     color: #5c5c5c;
-    text-align: center;
     display: inline-block;
+    position: absolute;
+    text-align: center;
     width: 100%;
-    margin-top: -70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .subNav {
+      display: inline-block;
+      font-size: $fontSize;
+      cursor: pointer;
+      margin-right: 15px;
+
+      &:hover {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
+    }
 
     a {
-      // margin: 20px;
-      // letter-spacing: 1px;
-      margin: 10px;
+      margin: 15px;
       letter-spacing: 0.5px;
       color: rgb(15, 15, 15);
       text-decoration: none;
       color: #7a7a7a;
+      font-size: $fontSize;
 
       &:hover {
         text-decoration: none;
@@ -59,4 +121,124 @@ $headerHeight: 70px;
       font-weight: bold;
     }
   }
+}
+
+// media queries
+@media only screen and (max-width: 520px) {
+  .header {
+    .phoneMenu {
+      display: inline-block;
+    }
+    .header-center {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header {
+    .header-center {
+      text-align: right;
+    }
+  }
+}
+@media only screen and (max-width: 825px) {
+  .header {
+    .header-center {
+      width: auto;
+    }
+  }
+}
+
+// ANIMATIONS
+@-webkit-keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible
+  }
+
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+}
+
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible
+  }
+
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+}
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible
+  }
+
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible
+  }
+
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible
+  }
+
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible
+  }
+
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp
 }

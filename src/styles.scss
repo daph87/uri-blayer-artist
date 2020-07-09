@@ -1,15 +1,153 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
-html, body{
-    height:100%;
-    margin:0;
-    padding:0;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 .wrapper {
-    margin-right: 5%;
-    margin-left: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
 @font-face {
-    font-family: libel;
-    src: url(./assets/fonts/libel-suit-rg.ttf);
+  font-family: libel;
+  src: url(./assets/fonts/libel-suit-rg.ttf);
+}
+
+@font-face {
+  font-family: yellowtail;
+  src: url(./assets/fonts/Yellowtail-Regular.ttf);
+}
+
+.img-modal {
+  display: none;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(5, 4, 4, 0.93);
+  color: #fff;
+
+  .contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    h2 {
+      font-size: 15px;
+      color: #f8f9fa82;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      position: absolute;
+      top: 104%;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  button {
+    position: absolute;
+    border: 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 36px;
+    background: none;
+
+    &:focus {
+      outline-width: 0;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  #close {
+    right: 0;
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  .arrows {
+    width: 30px;
+    height: 30px;
+    top: 46vh;
+    transform: rotate(45deg);
+    transition: 1s;
+  }
+
+  #next {
+    right: 15px;
+    border-right: 5px solid rgba(255, 255, 255, 0.47);
+    border-top: 5px solid rgba(255, 255, 255, 0.47);
+  }
+
+  #prev {
+    left: 15px;
+    border-left: 5px solid rgba(255, 255, 255, 0.47);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.47);
+  }
+}
+
+.wrapper {
+  padding: 15px;
+
+  .images {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+
+    img {
+      cursor: pointer;
+      border: 2px solid;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .wrapper {
+    .images {
+      -webkit-column-count: 2;
+      -webkit-column-gap: 20px;
+      -moz-column-count: 2;
+      -moz-column-gap: 20px;
+      column-count: 2;
+      column-gap: 20px;
+    }
+  }
 }

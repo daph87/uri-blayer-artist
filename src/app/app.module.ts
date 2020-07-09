@@ -7,13 +7,16 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home/home.component';
-import { Recent2003Component } from './paintingsComponents/recent2003/recent2003.component';
-import { Since97to2002Component } from './paintingsComponents/since97to2002/since97to2002.component';
 import { AboutComponent } from './about/about/about.component';
 import { ContactComponent } from './contact/contact/contact.component';
-import { FieldComponent } from './paintingsComponents/field/field.component';
 import { Page404Component } from './components/page404/page404.component';
-import { ArticlesComponent } from './paintingsComponents/articles/articles.component';
+import { FieldComponent } from './components/field/field.component';
+import { ArticlesComponent } from './components/articles/articles.component';
+import { Paintings2002to2011Component } from './paintingsComponents/paintings2002to2011/paintings2002to2011.component';
+import { Paintings2012to2016Component } from './paintingsComponents/paintings2012to2016/paintings2012to2016.component';
+import { Paintings2017to2018Component } from './paintingsComponents/paintings2017to2018/paintings2017to2018.component';
+import { EarlyWorkComponent } from './paintingsComponents/early-work/early-work.component';
+import { PortraitsComponent } from './paintingsComponents/portraits/portraits.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +24,16 @@ import { ArticlesComponent } from './paintingsComponents/articles/articles.compo
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    Recent2003Component,
-    Since97to2002Component,
     AboutComponent,
     ContactComponent,
     FieldComponent,
     Page404Component,
-    ArticlesComponent
+    ArticlesComponent, 
+    EarlyWorkComponent, 
+    Paintings2002to2011Component, 
+    Paintings2017to2018Component, 
+    Paintings2012to2016Component,
+    PortraitsComponent
   ],
   imports: [
     BrowserModule,

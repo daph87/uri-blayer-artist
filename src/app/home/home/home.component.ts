@@ -22,7 +22,6 @@ export class HomeComponent implements OnInit {
     fetch('assets/json/carousel.json').then(data => data.json())
     .then(carousel => {
       this.carousel = carousel;
-      console.log('carousel: ', this.carousel);
     });
   }
 

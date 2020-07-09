@@ -28,20 +28,6 @@
         "location": ""
     },
     {
-        "id": 5,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150507_091446.jpg",
-        "location": ""
-    },
-    {
-        "id": 6,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150512_163304.jpg",
-        "location": ""
-    },
-    {
         "id": 7,
         "name": "Untitled",
         "material": "oil on canvas",
@@ -55,41 +41,7 @@
         "src": "20150527_082754.jpg",
         "location": ""
     },
-    {
-        "id": 9,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150614_090404.jpg",
-        "location": ""
-    },
-    {
-        "id": 10,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150614_092300.jpg",
-        "location": ""
-    },
-    {
-        "id": 11,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150614_092310.jpg",
-        "location": ""
-    },
-    {
-        "id": 12,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150614_092715.jpg",
-        "location": ""
-    },
-    {
-        "id": 13,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150614_092728.jpg",
-        "location": ""
-    },
+   
     {
         "id": 14,
         "name": "Untitled",
@@ -130,13 +82,6 @@
         "name": "Untitled",
         "material": "oil on canvas",
         "src": "IMG_6428 (Small).jpg",
-        "location": ""
-    },
-    {
-        "id": 20,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_7698.jpg",
         "location": ""
     },
     {
@@ -186,13 +131,6 @@
         "name": "Untitled",
         "material": "oil on canvas",
         "src": "photo 2.jpg",
-        "location": ""
-    },
-    {
-        "id": 28,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Uri - painter - good - 1.jpg",
         "location": ""
     },
     {

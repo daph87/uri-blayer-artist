@@ -1,6 +1,6 @@
 #footer {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(177, 175, 175, 0.75);
   color: #000;
 
   hr {
@@ -54,9 +54,9 @@
           margin: 5px;
           margin-left: 0;
           color: grey;
-          -webkit-transition: .5s;
-          -o-transition: .5s;
-          transition: .5s;
+          -webkit-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s;
         }
 
         span {
@@ -73,7 +73,6 @@
   }
 
   .copyrights {
-    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 12px;
     padding-left: 5%;
@@ -93,7 +92,6 @@
       text-decoration: none;
     }
   }
-
 }
 
 @media only screen and (min-width: 801px) {

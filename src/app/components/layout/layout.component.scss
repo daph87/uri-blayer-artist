@@ -5,7 +5,8 @@ section {
 
 section::after {
   content: "";
-  background: url("/assets/images/bg2.jpeg");
+  // background: url("/assets/images/bg2.jpeg");
+  background-color: #fff;
   top: 0;
   left: 0;
   bottom: 0;

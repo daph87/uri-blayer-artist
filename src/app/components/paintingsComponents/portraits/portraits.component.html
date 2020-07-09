@@ -1,3 +1,19 @@
+<ng-container *ngIf="painting">
+    <div class="img-modal" #artworkModal>
+    
+    <div class="contain">
+        
+      <img src="assets/images/portraits/{{painting.src}}" alt='test' loading=lazy>
+      <h2>{{painting.name}} {{painting.material}} {{painting.size}} </h2>
+    
+    </div>
+    <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
+    <button (click)="previousImage()" id="prev" class="arrows" title="previous"></button>
+      <button (click)="nextImage()" id="next" class="arrows" title="next"></button>
+       
+    </div>
+    </ng-container>
+
 <div class="wrapper">
 
     <h1>Portraits</h1>
@@ -6,7 +22,7 @@
   
       <ng-container *ngIf="portraits">
   
-        <img *ngFor="let image of portraits" src="assets/images/portraits/{{image.src}}" alt="{{image.name}} Uri Blayer">
+        <img *ngFor="let image of portraits" src="assets/images/portraits/{{image.src}}" (click)="openModal(image.id)" alt="{{image.name}} Uri Blayer">
   
       </ng-container>
     </div>

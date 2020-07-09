@@ -17,6 +17,14 @@ import { Paintings2012to2016Component } from './paintingsComponents/paintings201
 import { Paintings2017to2018Component } from './paintingsComponents/paintings2017to2018/paintings2017to2018.component';
 import { EarlyWorkComponent } from './paintingsComponents/early-work/early-work.component';
 import { PortraitsComponent } from './paintingsComponents/portraits/portraits.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from 'src/environments/environment.prod';
+import * as firebase from 'firebase';
+
+// environment.firebase
+firebase.initializeApp(environment.firebase);
 
 @NgModule({
   declarations: [
@@ -39,7 +47,11 @@ import { PortraitsComponent } from './paintingsComponents/portraits/portraits.co
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    NgbModalModule
+    AngularFireModule,
+    AngularFirestoreModule,
+    NgbModalModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [LayoutComponent]

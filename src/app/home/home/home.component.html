@@ -1,11 +1,19 @@
-<div class='container-fluid'>
-  <ngb-carousel class="no-indicators">
+<div class="wrapper">
 
-    <ng-template ngbSlide *ngFor="let picture of carousel">
-      <img src="{{picture.img}}" alt="picture.name" loading="lazy" height="450px">
-    </ng-template>
+  <div class='container-fluid'>
+    <ngb-carousel class="no-indicators">
 
-  </ngb-carousel>
+      <ng-template ngbSlide *ngFor="let picture of carousel">
+        <img src="{{picture.img}}" alt="picture.name" loading="lazy" height="450px">
+      </ng-template>
 
-  <!-- <p>The creation process naturally leads me to go outdoors and paint landscapes on location, I feel this is the only way for art to become a truthful testimony of nature, and not just a kind of an objective photographic image of it.</p> -->
+    </ngb-carousel>
+
+  </div>
+
+  <p>
+    The creation process naturally leads me to go outdoors and paint landscapes on location, I feel this is the only way
+    for art to become a truthful testimony of nature, and not just a kind of an objective photographic image of it.
+  </p>
+
 </div>

@@ -17,12 +17,41 @@
         <a routerLink="/paintings2017to2018" routerLinkActive="current">2017 - 2018</a>
         <a routerLink="/portraits" routerLinkActive="current">Portraits</a>
       </div>
+    </div>|
 
-    </div>
-  
     <a routerLink="/field" routerLinkActive="current">On the field</a>|
     <a routerLink="/articles" routerLinkActive="current">Articles</a>|
     <a routerLink="/about" routerLinkActive="current">About</a>|
     <a routerLink="/contact" routerLinkActive="current">Contact</a>
   </div>
+
+  <div class="phoneMenu" (click)="activateMenu()">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+
+  <div ngClass="menuDropDown shadow-lg p-3 mb-5 rounded animated slideInDown" #hamburger style="right: 0;">
+    <a routerLink="/field" routerLinkActive="current" (click)="activateMenu()">On The Field</a>
+    <a routerLink="/about" routerLinkActive="current" (click)="activateMenu()">About</a>
+    <div (click)="displayArticels()">
+      <div class="articles"></div>
+      Selected Artworks
+    </div>
+    <a routerLinkActive="current" routerLink="/articles" (click)="activateMenu()">Articles</a>
+    <a routerLink="/contact" routerLinkActive="current" (click)="activateMenu()">Contact</a>
+  </div>
+
+  <div ngClass="menuDropDown shadow-lg p-3 mb-5 rounded animated slideInRight" #articlesDropDown style="right: 0;">
+    <div (click)="displayArticels()">
+      <div class="articles"></div>
+      <span>Back To Menu</span>
+    </div>
+    <a routerLink="/earlywork" routerLinkActive="current" (click)="activateMenu()">Early Work</a>
+    <a routerLink="/paintings2002to2011" routerLinkActive="current" (click)="activateMenu()">2002 - 2011</a>
+    <a routerLink="/paintings2012to2016" routerLinkActive="current" (click)="activateMenu()">2012 - 2016</a>
+    <a routerLink="/paintings2017to2018" routerLinkActive="current" (click)="activateMenu()">2017 - 2018</a>
+    <a routerLink="/portraits" routerLinkActive="current" (click)="activateMenu()">Portraits</a>
+  </div>
+
 </div>

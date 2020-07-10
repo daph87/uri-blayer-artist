@@ -1,13 +1,31 @@
+.wrapper {
+  p {
+    width: 80%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 40px;
+    margin: auto;
+    padding-bottom: 10%;
+    font-size: 30px;
+    font-family: yellowtail;
+  }
+  
+}
+
 .container-fluid {
   position: relative;
   top: 50%;
   right: 50%;
   transform: translate(50%, 0);
   text-align: center;
-  min-height: 85vh;
+  min-height: 90vh;
 
   .no-indicators {
     width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-top: -35px;
 
     img {
       max-height: 75vh;
@@ -84,6 +102,11 @@
       img {
         max-height: 50vh;
       }
+    }
+  }
+  .wrapper {
+    p {
+    width: 100%;
     }
   }
 }

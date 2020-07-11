@@ -7,7 +7,6 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home/home.component';
-import { AboutComponent } from './about/about/about.component';
 import { ContactComponent } from './contact/contact/contact.component';
 import { Page404Component } from './components/page404/page404.component';
 import { FieldComponent } from './components/field/field.component';
@@ -20,8 +19,10 @@ import { PortraitsComponent } from './paintingsComponents/portraits/portraits.co
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { environment } from 'src/environments/environment.prod';
 import * as firebase from 'firebase';
+import { environment } from 'src/environnement/environnement.prod';
+import { Paintings2019to2020Component } from './paintingsComponents/paintings2019to2020/paintings2019to2020.component';
+import { AboutComponent } from './components/about/about.component';
 
 // environment.firebase
 firebase.initializeApp(environment.firebase);
@@ -41,7 +42,8 @@ firebase.initializeApp(environment.firebase);
     Paintings2002to2011Component, 
     Paintings2017to2018Component, 
     Paintings2012to2016Component,
-    PortraitsComponent
+    PortraitsComponent,
+    Paintings2019to2020Component,
   ],
   imports: [
     BrowserModule,

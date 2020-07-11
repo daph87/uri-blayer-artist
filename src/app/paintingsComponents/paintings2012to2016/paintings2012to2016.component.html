@@ -4,8 +4,8 @@
 
     <div class="contain">
 
-      <img src="assets/images/{{painting.year}}/{{painting.src}}" alt='test' loading=lazy>
-      <h2>{{painting.name}} {{painting.material}} {{painting.size}} </h2>
+      <img src="assets/images/{{painting.year}}/{{painting.src}}" alt='{{painting.name}}-Uri Blayer' loading=lazy>
+      <h2>name:{{painting.name}} material:{{painting.material}} size:{{painting.size}} year:{{painting.year}} id:{{painting.id}}</h2>
 
     </div>
     <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>

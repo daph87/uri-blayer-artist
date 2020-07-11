@@ -174,5 +174,24 @@
         "material": "oil on canvas",
         "src": "תצלום0149.jpg",
         "location": ""
+    },
+    {
+        "id": 35,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "painting-on-the-field.jpeg",
+        "location": ""
+    },{
+        "id": 36,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "live-painting.jpeg",
+        "location": ""
+    },{
+        "id": 37,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "painter-on-the-field.jpeg",
+        "location": ""
     }
 ]

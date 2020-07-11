@@ -4,10 +4,10 @@
 
   <div class="images">
     <ng-container *ngIf="images">
-
-      <img *ngFor="let image of images" src="assets/images/on-the-field/{{image.src}}" alt="uri blayer">
-
+      <div *ngFor="let image of images">
+        <img src="assets/images/on-the-field/{{image.src}}" alt="uri blayer">
+        <p>{{image.id}}</p>
+      </div>
     </ng-container>
   </div>
-
 </div>

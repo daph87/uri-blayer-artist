@@ -1,155 +1,209 @@
 [
-    {
-        "src":"paia-sugarmill-chimneys.jpg",
-        "name":"Paia Sugarmill Chimneys",
-        "material":"",
-        "size":"",
-        "year":"1999",
-        "id":8888888
-        
-    },
-     {
-        "src":"sugarmill-painting-1999.jpg",
-        "name":"Sugarmill",
-        "material":"",
-        "size":"40 x 25 cm",
-        "year":"1999",
-        "id":8
-        
-    },
-    {
-        "src":"the-wheel-1999.jpg",
-        "name":"The wheel",
-        "material":"",
-        "size":"46 x 46 cm",
-        "year":"1999",
-        "id":9
-        
-    },
-    {
-        "src":"sugarmill-2000.jpg",
-        "name":"Sugarmill",
-        "material":"",
-        "size":"62 x 62 cm",
-        "year":"2000",
-        "id":10
-        
-    }, {
-        "src":"sugarmill-painting-2000.jpg",
-        "name":"Sugarmill",
-        "material":"",
-        "size":"92 x 99 cm",
-        "year":"2000",
-        "id":11
-        
-    },
-        {
-            "src":"canyon-1997.jpg",
-            "name":"Untitled",
-            "material":"",
-            "size":"",
-            "year":"1997",
-            "id":1
-            
-        },
-        {
-            "src":"canyon-1997-02.jpg",
-            "name":"Untitled",
-            "material":"",
-            "size":"",
-            "year":"1997",
-            "id":2
-            
-        },
-        {
-            "src":"canyon-1997-03.jpg",
-            "name":"Untitled",
-            "material":"",
-            "size":"",
-            "year":"1997",
-            "id":3
-            
-        },
-        {
-            "src":"landscape-ury-blayer-1997.jpg",
-            "name":"Untitled",
-            "material":"",
-            "size":"",
-            "year":"1997",
-            "id":4
-            
-        },
-      
-        {
-            "src":"big-bend-texas-painting-1998.jpg",
-            "name":"Big Bend Texas",
-            "material":"",
-            "size":"50 x 100 cm",
-            "year":"1998",
-            "id":6
-            
-        }, {
-            "src":"mona-still-life-1998.jpg",
-            "name":"Mona Still life",
-            "material":"",
-            "size":"45 x 60 cm",
-            "year":"1998",
-            "id":7
-            
-        }, 
-        {
-            "src":"kahului.jpg",
-            "name":"Kahului",
-            "material":"",
-            "size":"",
-            "year":"2002",
-            "id":14
-            
-        },
-        {
-            "src":"kahului-river.jpg",
-            "name":"Kahului River",
-            "material":"",
-            "size":"",
-            "year":"2002",
-            "id":15
-            
-        },
-    
-        {
-            "src":"tunnels-beach.jpg",
-            "name":"Tunnel's beach",
-            "material":"",
-            "size":"",
-            "year":"2002",
-            "id":18
-            
-        },
-        {
-            "src":"turtle-bay.jpg",
-            "name":"Turtle bay",
-            "material":"",
-            "size":"",
-            "year":"2002",
-            "id":19
-            
-        },
-        {
-            "src":"lihue-sugarmill.jpg",
-            "name":"Lihue Sugarmill",
-            "material":"",
-            "size":"25 x 24cm",
-            "year":"2002",
-            "id":71
-            
-        },
-        {
-            "src":"green-house.jpg",
-            "name":"Untitled",
-            "material":"",
-            "size":"",
-            "year":"2002",
-            "id":55
-            
-        }
+  {
+    "src": "paia-sugarmill-chimneys.jpg",
+    "name": "Paia Sugarmill Chimneys",
+    "material": "",
+    "size": "",
+    "year": "1999",
+    "id": 8888888
+  },
+  {
+    "src": "sugarmill-painting-1999.jpg",
+    "name": "Sugarmill",
+    "material": "",
+    "size": "40 x 25 cm",
+    "year": "1999",
+    "id": 8
+  },
+  {
+    "src": "the-wheel-1999.jpg",
+    "name": "The wheel",
+    "material": "",
+    "size": "46 x 46 cm",
+    "year": "1999",
+    "id": 9
+  },
+  {
+    "src": "sugarmill-2000.jpg",
+    "name": "Sugarmill",
+    "material": "",
+    "size": "62 x 62 cm",
+    "year": "2000",
+    "id": 10
+  },
+  {
+    "src": "sugarmill-painting-2000.jpg",
+    "name": "Sugarmill",
+    "material": "",
+    "size": "92 x 99 cm",
+    "year": "2000",
+    "id": 11
+  },
+  {
+    "src": "canyon-1997.jpg",
+    "name": "Untitled",
+    "material": "",
+    "size": "",
+    "year": "1997",
+    "id": 1
+  },
+  {
+    "src": "canyon-1997-02.jpg",
+    "name": "Untitled",
+    "material": "",
+    "size": "",
+    "year": "1997",
+    "id": 2
+  },
+  {
+    "src": "canyon-1997-03.jpg",
+    "name": "Untitled",
+    "material": "",
+    "size": "",
+    "year": "1997",
+    "id": 3
+  },
+  {
+    "src": "landscape-uri-blayer-1997.jpg",
+    "name": "Untitled",
+    "material": "",
+    "size": "",
+    "year": "1997",
+    "id": 4
+  },
+
+  {
+    "src": "big-bend-texas-painting-1998.jpg",
+    "name": "Big Bend Texas",
+    "material": "",
+    "size": "50 x 100 cm",
+    "year": "1998",
+    "id": 6
+  },
+  {
+    "src": "tools-painting.jpg",
+    "name": "Untitled",
+    "material": "",
+    "size": "",
+    "year": "1998",
+    "id": 166666
+  },
+  {
+    "src": "uri-blayer02.jpg",
+    "name": "",
+    "material": "",
+    "size": "",
+    "year": "1998",
+    "id": 18386
+  },
+
+  {
+    "src": "maui-sugarmill-painting.jpg",
+    "name": "Maui Sugarmill",
+    "material": "",
+    "size": "32 x 48 inches",
+    "year": "1998",
+    "id": 166667
+  },
+  {
+    "src": "metal-scrap-pile-painting.jpg",
+    "name": "Metal Scrap Pile",
+    "material": "",
+    "size": "",
+    "year": "1998",
+    "id": 18387
+  },
+
+  {
+    "src": "pioneer-mill-painting.jpg",
+    "name": "Pioneer Mill",
+    "material": "",
+    "size": "",
+    "year": "1998",
+    "id": 18389
+  },
+
+  {
+    "src": "amazing-view-canyon.jpeg",
+    "name": "",
+    "material": "",
+    "size": "",
+    "year": "1998",
+    "id": 166669
+  },
+  {
+    "src": "painting-uri-blayer-1998.jpeg",
+    "name": "",
+    "material": "",
+    "size": "",
+    "year": "1998",
+    "id": 18390
+  },
+
+  {
+    "src": "rocks-landscape-canyon.jpeg",
+    "name": "",
+    "material": "",
+    "size": "",
+    "year": "1998",
+    "id": 18391
+  },
+
+  {
+    "src": "mona-still-life-1998.jpg",
+    "name": "Mona Still life",
+    "material": "",
+    "size": "45 x 60 cm",
+    "year": "1998",
+    "id": 7
+  },
+  {
+    "src": "kahului.jpg",
+    "name": "Kahului",
+    "material": "",
+    "size": "",
+    "year": "2002",
+    "id": 14
+  },
+  {
+    "src": "kahului-river.jpg",
+    "name": "Kahului River",
+    "material": "",
+    "size": "",
+    "year": "2002",
+    "id": 15
+  },
+
+  {
+    "src": "tunnels-beach.jpg",
+    "name": "Tunnel's beach",
+    "material": "",
+    "size": "",
+    "year": "2002",
+    "id": 18
+  },
+  {
+    "src": "turtle-bay.jpg",
+    "name": "Turtle bay",
+    "material": "",
+    "size": "",
+    "year": "2002",
+    "id": 19
+  },
+  {
+    "src": "lihue-sugarmill.jpg",
+    "name": "Lihue Sugarmill",
+    "material": "",
+    "size": "25 x 24cm",
+    "year": "2002",
+    "id": 71
+  },
+  {
+    "src": "green-house.jpg",
+    "name": "Untitled",
+    "material": "",
+    "size": "",
+    "year": "2002",
+    "id": 55
+  }
 ]

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home/home.component';
-import { AboutComponent } from './about/about/about.component';
 import { ContactComponent } from './contact/contact/contact.component';
 import { FieldComponent } from './components/field/field.component';
 import { ArticlesComponent } from './components/articles/articles.component';
@@ -10,6 +9,8 @@ import { EarlyWorkComponent } from './paintingsComponents/early-work/early-work.
 import { Paintings2002to2011Component } from './paintingsComponents/paintings2002to2011/paintings2002to2011.component';
 import { Paintings2017to2018Component } from './paintingsComponents/paintings2017to2018/paintings2017to2018.component';
 import { PortraitsComponent } from './paintingsComponents/portraits/portraits.component';
+import { Paintings2019to2020Component } from './paintingsComponents/paintings2019to2020/paintings2019to2020.component';
+import { AboutComponent } from './components/about/about.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'articles', component: ArticlesComponent },
   { path: 'paintings2002to2011', component: Paintings2002to2011Component },
   { path: 'paintings2017to2018', component: Paintings2017to2018Component },
+  { path: 'paintings2019to2020', component: Paintings2019to2020Component },
   { path: 'portraits', component: PortraitsComponent },
   { path: "", redirectTo: "/home", pathMatch: "full" },
   { path: "**", redirectTo: "/home", pathMatch: "full" }

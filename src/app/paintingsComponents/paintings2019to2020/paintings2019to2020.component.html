@@ -1,0 +1,32 @@
+<ng-container *ngIf="painting">
+    <div class="img-modal" #artworkModal
+    (keyup.arrowleft)="previousImage()" (keyup.arrowright)="nextImage()" (keyup.escape)="closeModal()">
+  
+      <div class="contain">
+  
+        <img src="assets/images/{{painting.year}}/{{painting.src}}" alt='{{painting.name}}-Uri Blayer' loading=lazy>
+        <h2>name:{{painting.name}} material:{{painting.material}} size:{{painting.size}} year:{{painting.year}} id:{{painting.id}}</h2>
+  
+      </div>
+      <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
+      <button (click)="previousImage()" id="prev" class="arrows" title="previous"></button>
+      <button (click)="nextImage()" id="next" class="arrows" title="next"></button>
+  
+    </div>
+  </ng-container>
+  
+  <div class="wrapper">
+  
+    <h1>2018 - 2019</h1>
+  
+    <div class="images">
+  
+      <ng-container *ngIf="paintings">
+  
+        <img *ngFor="let image of paintings" src="assets/images/{{image.year}}/{{image.src}}"
+          (click)="openModal(image.id)" alt="{{image.name}} Uri Blayer">
+  
+      </ng-container>
+    </div>
+  
+  </div>

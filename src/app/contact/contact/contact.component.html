@@ -1,6 +1,6 @@
 <div class="wrapper">
 
-  <h1>send me a message</h1>
+  <h1>Send a message</h1>
 
   <form [formGroup]="newContact">
 
@@ -14,7 +14,7 @@
     <input type="text" class="form-control" name="subject" placeholder="Subject..." formControlName='subject'>
 
     <label for="message">Message</label>
-    <textarea class="form-control" name="message" placeholder="Message..." formControlName='message'>
+    <textarea rows="4" cols="60" class="form-control" name="message" placeholder="Message..." formControlName='message'>
   </textarea>
 
     <button class="btn btn-dark" (click)="sendMessage()">send</button>

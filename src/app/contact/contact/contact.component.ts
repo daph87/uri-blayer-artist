@@ -23,15 +23,17 @@ export class ContactComponent implements OnInit {
   public sendMessage(): void {
     let newContact = this.newContact.value;
     const emailValidation = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
-    if (emailValidation.test(newContact.email)) {
-      console.log('contact: ', newContact);
-      alert('sending...');
-      const contact = firebase.functions().httpsCallable('newContact');
-      contact(newContact);
+    if (newContact.subject === '' || newContact.message === '') {
+      alert('please fill the fields');
     } else {
-      alert('Ilegal email address, please type again.');
+      if (emailValidation.test(newContact.email)) {
+        console.log('contact: ', newContact);
+        alert('sending...');
+        const contact = firebase.functions().httpsCallable('newContact');
+        contact(newContact);
+      } else {
+        alert('Ilegal email address, please type again.');
+      }
     }
-
   }
-
 }

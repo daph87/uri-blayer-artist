@@ -1,12 +1,29 @@
-<div class="wrapper">
+  <div class="article-modal {{modalClass}}">
+    <!--  (keyup.arrowleft)="previousImage()" (keyup.arrowright)="nextImage()"
+      (keyup.escape)="closeModal()" -->
+
+    <div class="contain">
+      <img src="assets/articles/{{painting}}" alt='Uri Blayer' loading=lazy>
+    </div>
+
+    <button (click)="close()" id="close" title="close" autofocus>&#10006;</button>
+    <ng-container *ngIf="images">
+      <button (click)="prev()" id="prev" class="arrows" title="previous"></button>
+      <button (click)="next()" id="next" class="arrows" title="next"></button>
+    </ng-container>
+
+  </div>
+
+  <div class="wrapper">
 
     <ng-container *ngIf="articles">
 
-        <div class="article" *ngFor="let article of articles">
-            <h2>{{ article.name }}</h2>
-            <img *ngFor="let src of article.images" src="assets/articles/{{src}}" [alt]="article.name">
-        </div>
+      <div class="article" *ngFor="let article of articles">
+        <h2>{{ article.name }}</h2>
+        <img *ngFor="let src of article.images" src="assets/articles/{{src}}" [alt]="article.name"
+          (click)="definePainting(src,article.images)">
+      </div>
 
     </ng-container>
 
-</div>
+  </div>

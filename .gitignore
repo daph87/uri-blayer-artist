@@ -2,6 +2,7 @@
 /functions
 /public
 /src/environments
+/src/app/main.ts
 # compiled output
 /dist
 /tmp

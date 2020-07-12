@@ -1,5 +1,10 @@
 [
     {
+        "id": 4,
+        "name": "New York Times 2000",
+        "images": ["NY Times 2000-1.jpg"]
+    },
+    {
         "id": 1,
         "name": "Art Collector 2010",
         "images": ["P1 Art Collector 2010.jpg","P2 Art Collector 2010.jpg","P3 Art Collector 2010.jpg"]

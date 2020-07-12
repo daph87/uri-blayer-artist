@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+
+
+.uri-blayer-home-page{
+  max-width:100vw;
+}
 html,
 body {
   height: 100%;
@@ -11,6 +16,7 @@ body {
 .wrapper {
   margin-right: 5%;
   margin-left: 5%;
+  min-height:75vh;
 }
 
 .none {
@@ -143,6 +149,52 @@ body {
 
   h1 {
     text-align: center;
+  }
+}
+
+
+
+
+.lds-ring {
+  display: inline-block;
+  position: absolute;
+  width: 310px;
+  height: 310px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 36px solid #000000;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #000000 transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 

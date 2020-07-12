@@ -12,20 +12,40 @@ export const openModal = function(id) {
 }
 
 export const closeModal = function() {
-    console.log(" escape")
+ 
     this.artworkModal.nativeElement.style.display = 'none';
 }
 
 export const previousImage = function() {
-    console.log("arrow");
+ 
     if (this.index == 0) this.index = this.paintings.length;
     this.painting = this.paintings[this.index - 1];
     this.index--;
 }
 
 export const nextImage = function() {
-    console.log("arrow right");
+
     if (this.index + 1 > this.maxLength) this.index = -1;
     this.painting = this.paintings[this.index + 1];
     this.index++;
 }
+
+export const onKeyUp = function(ev:KeyboardEvent) {
+
+    if( ev.key === "ArrowLeft"){
+      if (this.index == 0) this.index = this.paintings.length;
+      this.painting = this.paintings[this.index - 1];
+      this.index--;
+    }
+
+    else if(ev.key === "ArrowRight"){
+      if (this.index + 1 > this.maxLength) this.index = -1;
+      this.painting = this.paintings[this.index + 1];
+      this.index++;
+    }
+
+    else if(ev.key === "Escape"){
+        this.artworkModal.nativeElement.style.display = 'none';
+      }
+    console.log(`The user just pressed ${ev.key}!`);
+  }

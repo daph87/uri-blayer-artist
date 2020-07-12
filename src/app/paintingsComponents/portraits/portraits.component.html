@@ -1,3 +1,11 @@
+<div *ngIf="!paintings" class="lds-ring">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
 <ng-container *ngIf="painting">
   <div class="img-modal" #artworkModal (keyup.arrowleft)="previousImage()" (keyup.arrowright)="nextImage()"
     (keyup.escape)="closeModal()">

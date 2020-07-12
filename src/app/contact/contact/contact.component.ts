@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import * as firebase from 'firebase';
 
@@ -8,6 +8,11 @@ import * as firebase from 'firebase';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
+
+  @ViewChild('conditionsModal', { static: false }) conditionsModal: ElementRef;
+  public buttonMessage: string = '';
+  public modalMessage: string = '';
+
   public newContact = new FormGroup({
     fullname: new FormControl(''),
     email: new FormControl(''),
@@ -23,15 +28,45 @@ export class ContactComponent implements OnInit {
   public sendMessage(): void {
     let newContact = this.newContact.value;
     const emailValidation = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
-    if (emailValidation.test(newContact.email)) {
-      console.log('contact: ', newContact);
-      alert('sending...');
-      const contact = firebase.functions().httpsCallable('newContact');
-      contact(newContact);
-    } else {
-      alert('Ilegal email address, please type again.');
+    if (newContact.subject === '' || newContact.message === '') {
+      this.buttonMessage = 'I understand';
+      this.modalMessage = 'Please fill the required fields';
+      this.conditionsModal.nativeElement.style.display = 'block'
+    }
+    
+    else {
+      if (emailValidation.test(newContact.email)) {
+        console.log('contact: ', newContact);
+        this.conditionsModal.nativeElement.style.display = 'block'
+       
+
+        this.buttonMessage = 'Ok';
+        this.modalMessage = 'Your message has been sent successfully. We will contact you soon';
+        this.conditionsModal.nativeElement.style.display = 'block'
+
+
+        // const contact = firebase.functions().httpsCallable('newContact');
+        // contact(newContact);
+      } 
+      
+      
+      else {
+        this.conditionsModal.nativeElement.style.display = 'block'
+        this.buttonMessage = 'I understand';
+        this.modalMessage = 'This email is not correct, please type again.';
+        this.conditionsModal.nativeElement.style.display = 'block'
+      }
     }
 
   }
 
+
+  public closeModal() {
+    this.conditionsModal.nativeElement.style.display = 'none';
+  }
+
 }
+
+
+
+

@@ -1,5 +1,7 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Inject } from '@angular/core';
 import { openModal, closeModal, previousImage, nextImage } from 'src/app/global';
+import { DOCUMENT } from '@angular/common';
+
 
 @Component({
   selector: 'app-early-work',
@@ -18,14 +20,21 @@ export class EarlyWorkComponent implements OnInit {
   public previousImage = previousImage;
   public nextImage = nextImage;
 
-  constructor() { }
+  constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit(): void {
     // get the paintings
     fetch('assets/json/artworks-early-work.json').then(data => data.json())
       .then(paintings => {
         this.paintings = paintings;
+
       })
 
+      // this.document.onkeydown (()=>{
+
+      
   }
+
+
+
 }

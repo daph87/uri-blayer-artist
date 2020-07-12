@@ -24,7 +24,7 @@
     <ng-container *ngIf="paintings">
 
       <img *ngFor="let image of paintings" src="assets/images/{{image.year}}/{{image.src}}"
-        (click)="openModal(image.id)" alt="uri blayer">
+        (click)="openModal(image.id)" alt="{{image.name}}-Uri Blayer">
 
     </ng-container>
   </div>

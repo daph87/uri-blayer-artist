@@ -1,7 +1,6 @@
-<ng-container *ngIf="painting">
-  <div class="img-modal" #artworkModal
+  <div *ngIf="painting" class="img-modal" #artworkModal
   (keyup.arrowleft)="previousImage()" (keyup.arrowright)="nextImage()" (keyup.escape)="closeModal()">
-
+ 
     <div class="contain">
 
       <img src="assets/images/{{painting.year}}/{{painting.src}}" alt='{{painting.name}}-Uri Blayer' loading=lazy>
@@ -14,7 +13,6 @@
     <button (click)="nextImage()" id="next" class="arrows" title="next"></button>
 
   </div>
-</ng-container>
 
 <div class="wrapper">
 
@@ -24,7 +22,7 @@
     <ng-container *ngIf="paintings">
 
       <img *ngFor="let image of paintings" src="assets/images/{{image.year}}/{{image.src}}" 
-      alt="uri blayer" (click)="openModal(image.id)">
+      alt="{{image.name}}-Uri Blayer" (click)="openModal(image.id)">
 
     </ng-container>
   </div>

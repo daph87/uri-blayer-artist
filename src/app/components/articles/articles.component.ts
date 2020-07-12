@@ -11,7 +11,6 @@ export class ArticlesComponent implements OnInit {
   // modal
   public modalClass: string = 'none';
   public painting: string;
-  // 
   public images: string[];
   public index: number;
 

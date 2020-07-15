@@ -7,49 +7,6 @@
         "location": ""
     },
     {
-        "id": 2,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20140617_100643.jpg",
-        "location": ""
-    },
-    {
-        "id": 3,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20140619_085459.jpg",
-        "location": ""
-    },
-    {
-        "id": 4,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20140619_085531.jpg",
-        "location": ""
-    },
-    {
-        "id": 7,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150524_084508.jpg",
-        "location": ""
-    },
-    {
-        "id": 8,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "20150527_082754.jpg",
-        "location": ""
-    },
-   
-    {
-        "id": 14,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "image-2-1.jpg",
-        "location": ""
-    },
-    {
         "id": 15,
         "name": "Untitled",
         "material": "oil on canvas",
@@ -174,24 +131,65 @@
         "material": "oil on canvas",
         "src": "תצלום0149.jpg",
         "location": ""
-    },
-    {
-        "id": 35,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "painting-on-the-field.jpeg",
-        "location": ""
-    },{
-        "id": 36,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "live-painting.jpeg",
-        "location": ""
     },{
         "id": 37,
         "name": "Untitled",
         "material": "oil on canvas",
         "src": "painter-on-the-field.jpeg",
+        "location": ""
+    },{
+        "id": 38,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "on-the-field-uri-blayer-01.jpeg",
+        "location": ""
+    },{
+        "id": 39,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "on-the-field-uri-blayer-02.jpeg",
+        "location": ""
+    },{
+        "id": 40,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "on-the-field-uri-blayer-03.jpeg",
+        "location": ""
+    },{
+        "id": 41,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "on-the-field-uri-blayer-04.jpeg",
+        "location": ""
+    },{
+        "id": 42,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "on-the-field-uri-blayer-05.jpeg",
+        "location": ""
+    },{
+        "id": 43,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "Hawaii.png",
+        "location": ""
+    },{
+        "id": 44,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "Hawaii shipwreck.jpeg",
+        "location": ""
+    },{
+        "id": 45,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "received_2992762607425668.jpeg",
+        "location": ""
+    },{
+        "id": 46,
+        "name": "Untitled",
+        "material": "oil on canvas",
+        "src": "Anini paint.png",
         "location": ""
     }
 ]

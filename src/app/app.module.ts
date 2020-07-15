@@ -22,10 +22,10 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import * as firebase from 'firebase';
 import { Paintings2019to2020Component } from './paintingsComponents/paintings2019to2020/paintings2019to2020.component';
 import { AboutComponent } from './components/about/about.component';
-import { environment } from 'src/environments/environment.prod';
+// import { environment } from 'src/environments/environment.prod';
 
 // environment.firebase
-firebase.initializeApp(environment.firebase);
+// firebase.initializeApp(environment.firebase);
 
 @NgModule({
   declarations: [

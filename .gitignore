@@ -2,7 +2,8 @@
 /functions
 /public
 /src/environments
-/src/app/main.ts
+/.firebase
+/.gitignore
 # compiled output
 /dist
 /tmp
@@ -47,3 +48,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+

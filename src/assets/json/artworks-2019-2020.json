@@ -3,16 +3,16 @@
 
 {
     "src":"landscape-australia.jpg",
-    "name":"Untitled",
-    "material":"",
+    "name":"Australia - Little watego’es",
+    "material":"Oil on linen canvas",
     "size":"50 x 140 cm",
     "year":"2019",
     "id":1075 
 },
 {
     "src":"australia-lennox-head-artwork.jpg",
-    "name":"Australie - Lennox Head",
-    "material":"",
+    "name":"Australia - Lennox Head",
+    "material":"Oil on linen canvas",
     "size":"48 x 90 cm",
     "year":"2019",
     "id":1076 
@@ -20,7 +20,7 @@
 {
     "src":"australia-lennox-rocks-artwork.jpg",
     "name":"Australia - Lennox Rocks",
-    "material":"",
+    "material":"Oil on linen canvas",
     "size":"50 x 150 cm",
     "year":"2019",
     "id":1077 
@@ -28,113 +28,96 @@
 {
     "src":"australia-blue-mountains-artwork.jpg",
     "name":"Australia - Blue Mountains",
-    "material":"",
+    "material":"Oil on linen canvas",
     "size":"25 x 70 cm",
     "year":"2019",
     "id":1078 
 },
 {
     "src":"australia-port-blue-morning-artwork.jpg",
-    "name":"Australia Port Blue Morning",
-    "material":"",
-    "size":"18 x 28 inches",
+    "name":"Australia - Blue Morning",
+    "material":"Oil on linen canvas",
+    "size":"45 x 70 cm",
     "year":"2019",
     "id":1079 
 },
 {
     "src":"port-macquarie-artwork-uri-blayer.jpg",
     "name":"Australia - Port Macquarie",
-    "material":"",
+    "material":"Oil on linen canvas",
     "size":"60 x 90 cm",
     "year":"2019",
     "id":1080 
 },
 {
-    "src":"the-pass-artwork.jpg",
-    "name":"Australie - The Pass",
-    "material":"",
-    "size":"20 x 27 inches",
+    "src":"the-pass-with-dark-shadows-artwork.jpg",
+    "name":"Australia - The Pass with dark shadows",
+    "material":"Oil on linen canvas",
+    "size":"51 x 69 cm",
     "year":"2019",
     "id":1081 
 },
 {
     "src":"australia-sea-artwork.jpg",
-    "name":"Untitled",
-    "material":"",
-    "size":"80 x 111",
+    "name":"Australia - White water crushing into the cliff",
+    "material":"Oil on linen canvas",
+    "size":"80 x 111 cm",
     "year":"2019",
     "id":1082 
 },
 {
     "src":"australia-sea-view-artwork.jpg",
-    "name":"Untitled",
-    "material":"",
-    "size":"80 x 150",
+    "name":"Australia - The Pass and watergo’es",
+    "material":"Oil on linen canvas",
+    "size":"80 x 150 cm",
     "year":"2019",
     "id":1083 
 },
 {
     "src":"hanalei-pier-artwork.jpg",
-    "name":"Hanalei Pier",
-    "material":"",
-    "size":"18 x 54 inches",
+    "name":"Hawaii - After the Storm",
+    "material":"Oil on linen canvas",
+    "size":"45 x 138 cm",
     "year":"2019",
     "id":1085 
 },
 {
     "src":"hunterville.jpeg",
-    "name":"Hunterville",
-    "material":"",
+    "name":"New Zealand - Hunterville Panoramic",
+    "material":"Oil on linen canvas",
     "size":"65 x 150 cm",
     "year":"2019",
     "id":1087 
 },
 {
     "src":"waimea-canyon-painting.jpg",
-    "name":"Waimea Canyon",
-    "material":"",
-    "size":"45 x 90 cm",
+    "name":"Hawaii - Waimea Canyon",
+    "material":"Oil on linen canvas",
+    "size":"45 x 95 cm",
     "year":"2019",
     "id":1089 
 },
 {
     "src":"new-zealand-back-beach-painting.jpeg",
-    "name":"New-Zealand : Back Beach",
-    "material":"",
+    "name":"New-Zealand - Back Beach",
+    "material":"Oil on linen canvas",
     "size":"45 x 96 cm",
     "year":"2019",
     "id":1090 
 },
-{
-    "src":"wanaka-painting.jpg",
-    "name":"New-Zealand : Wanaka",
-    "material":"",
-    "size":"",
-    "year":"2019",
-    "id":1093 
-},
 
 {
     "src":"landscape-new-zealand-uri-blayer.jpeg",
-    "name":"New-Zealand",
-    "material":"",
-    "size":"",
+    "name":"New-Zealand - Wanaka",
+    "material":"Oil on linen canvas",
+    "size":"51 x 76 cm",
     "year":"2019",
     "id":1095 
 },
 {
-    "src":"wanaka-panorama-view-artwork.jpg",
-    "name":"New-Zealand : Wanaka",
-    "material":"",
-    "size":"51 x 76 cm",
-    "year":"2019",
-    "id":1096 
-},
-
-{
     "src":"new-zealand-matukituki.jpg",
-    "name":"New-Zealand : Matukituki",
-    "material":"",
+    "name":"New-Zealand : Matukituki Valley",
+    "material":"Oil on linen canvas",
     "size":"76 x 138 cm",
     "year":"2019",
     "id":1098 
@@ -143,100 +126,135 @@
 
 {
     "src":"blue-ocean-and-rocks.jpg",
-    "name":"Untitled",
-    "material":"",
-    "size":"",
+    "name":"Israel - Nahsholim - The View from The Hill",
+    "material":"Oil on linen canvas",
+    "size":"45 x 91 cm",
     "year":"2019",
     "id":1099 
 },
 {
     "src":"beautiful-painting-of-the-sea.jpg",
-    "name":"Untitled",
-    "material":"",
-    "size":"",
+    "name":"Israel : Tel Dor Looking South",
+    "material":"Oil on linen canvas",
+    "size":"39 x 75 cm",
     "year":"2019",
     "id":1100 
 },
 
 {
-    "src":"traces-of-the-past.jpg",
-    "name":"Untitled",
-    "material":"",
-    "size":"",
+    "src":"ruins-of-port.jpg",
+    "name":"Israel : Ruins of Tel Dor Port ",
+    "material":"Oil on linen canvas",
+    "size":"54 x 112 cm",
     "year":"2019",
     "id":1102 
 },
 {
     "src":"remnant-nature.jpg",
-    "name":"Untitled",
-    "material":"",
-    "size":"",
+    "name":"Israel - Tel Dor Cliff at Sunset",
+    "material":"Oil on linen canvas",
+    "size":"38 x 90 cm",
     "year":"2019",
     "id":1103 
 },
 {
     "src":"anini-reflections.jpg",
-    "name":"Anini Reflections",
-    "material":"",
-    "size":"28 x 40 inches",
+    "name":"Israel - Anini Reflections",
+    "material":"Oil on linen canvas",
+    "size":"70 x 100 cm",
     "year":"2020",
     "id":1104 
 },{
     "src":"kauai-black-rocks.jpg",
-    "name":"Kauai Black Rocks",
-    "material":"28 x 48",
-    "size":"",
+    "name":"Hawaiian Volcanic Rocks",
+    "material":"61 x 122 cm",
+    "size":"Oil on linen canvas",
     "year":"2020",
     "id":1105 
 },{
     "src":"kauai-fishermen.jpg",
-    "name":"Kauai fishermen",
-    "material":"",
-    "size":"17 x 42",
+    "name":"Hawaii : Kauai Fishermen View",
+    "material":"Oil on linen canvas",
+    "size":"43 x 96 cm",
     "year":"2020",
     "id":1106 
 },{
-    "src":"kilauea.jpg",
-    "name":"Kilauea Light",
-    "material":"",
-    "size":"30 x 76",
+    "src":"kilauea-lighthouse-cliff-painting.jpg",
+    "name":"Kilauea Lighthouse Cliff - Detail",
+    "material":"Oil on linen canvas",
+    "size":"76 x 194 cm",
     "year":"2020",
     "id":1107 
 },{
     "src":"kilauea-light-uri-blayer.jpg",
-    "name":"Kilauea Light",
-    "material":"",
-    "size":"30 x 76",
+    "name":"Kilauea Lighthouse cliff -Detail",
+    "material":"Oil on linen canvas",
+    "size":"76 x 194 cm",
     "year":"2020",
     "id":1108 
 },{
-    "src":"kilauea-light-view.jpg",
-    "name":"Kilauea Light",
-    "material":"",
-    "size":"30 x 76",
+    "src":"kilauea-lighthouse-view.jpg",
+    "name":"Kilauea Lighthouse cliff -Detail",
+    "material":"Oil on linen canvas",
+    "size":"76 x 194 cm",
     "year":"2020",
     "id":1109 
 },{
-    "src":"kilauea-light-landscape.jpg",
-    "name":"Kilauea Light",
-    "material":"",
-    "size":"30 x 76",
+    "src":"kilauea-lighthouse-landscape.jpg",
+    "name":"Kilauea Lighthouse cliff -Detail",
+    "material":"Oil on linen canvas",
+    "size":"76 x 194 cm",
     "year":"2020",
     "id":1110 
 },{
-    "src":"kilauea-light-detail-painting.jpg",
-    "name":"Kilauea Light",
-    "material":"",
-    "size":"30 x 76",
+    "src":"kilauea-lighthouse-detail-painting.jpg",
+    "name":"Kilauea Lighthouse cliff -Detail",
+    "material":"Oil on linen canvas",
+    "size":"76 x 194 cm",
     "year":"2020",
     "id":1111
 },{
-    "src":"kilauea-light-cliff.jpg",
-    "name":"Kilauea Light Cliff",
-    "material":"",
-    "size":"30 x 76",
+    "src":"kilauea-lighthouse-cliff.jpg",
+    "name":"Kilauea Lighthouse Cliff",
+    "material":"Oil on linen canvas",
+    "size":"76 x 194 cm",
     "year":"2020",
     "id":1112
+},{
+    "src":"hanalei-golden-sunset.jpg",
+    "name":" Hanalei Golden sunset",
+    "material":"Oil on linen canvas",
+    "size":"43 x 86 cm",
+    "year":"2020",
+    "id":1113
+},{
+    "src":"waikoko-river-mouth-painting.jpg",
+    "name":"Waikoko's river mouth",
+    "material":"Oil on linen canvas",
+    "size":"54 x 76 cm",
+    "year":"2020",
+    "id":1114
+},{
+    "src":"hanalei-majestic cliff-and-rocks-painting.jpg",
+    "name":"Hanalei majestic cliff and rocks",
+    "material":"Oil on linen canvas",
+    "size":"70 x 100 cm",
+    "year":"2020",
+    "id":1115
+},{
+    "src":"waikoko-mist-painting.jpg",
+    "name":"Waikoko's mist",
+    "material":"Oil on linen canvas",
+    "size":"70 x 100 cm",
+    "year":"2020",
+    "id":1116
+},{
+    "src":"mamalahoa-hihimanu-namolokama-landscape.jpg",
+    "name":"Mamalahoa, Hihimanu & Namolokama",
+    "material":"Oil on linen canvas",
+    "size":"70 x 120 cm",
+    "year":"2020",
+    "id":1117
 }
 
 ]

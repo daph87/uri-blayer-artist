@@ -1,12 +1,33 @@
+<div *ngIf="painting" class="img-modal" #artworkModal>
+ 
+    <div class="contain">
+
+      <img src="assets/images/on-the-field/{{painting.src}}" alt='{{painting.name}}-Uri Blayer' loading=lazy>
+      <h2>name:{{painting.name}} material:{{painting.material}} location:{{painting.location}} id:{{painting.id}}</h2>
+
+    </div>
+
+    <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
+    <button (click)="previousImage()" id="prev" class="arrows" title="previous"></button>
+    <button (click)="nextImage()" id="next" class="arrows" title="next"></button>
+
+  </div>
+<div *ngIf="!paintings" class="lds-ring">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
 <div class="wrapper">
 
   <h1>Field</h1>
 
-  <div class="images">
-    <ng-container *ngIf="images">
-      <div *ngFor="let image of images">
-        <img src="assets/images/on-the-field/{{image.src}}" alt="uri blayer">
-        <p>{{image.id}}</p>
+  <div class="paintings">
+    <ng-container *ngIf="paintings">
+      <div *ngFor="let image of paintings">
+        <img src="assets/images/on-the-field/{{image.src}}" alt="uri blayer" (click)="openModal(image.id)">
+        <!-- <p>{{image.id}}</p> -->
       </div>
     </ng-container>
   </div>

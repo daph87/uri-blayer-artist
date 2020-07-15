@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild, ElementRef } from '@angular/core';
+import { closeModal } from 'src/app/global';
 
 @Component({
   selector: 'app-about',
@@ -6,12 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
+  @ViewChild('artworkModal', { static: false }) artworkModal: ElementRef;
+  public closeModal = closeModal;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+
+  public openModal() {
+    
+    this.artworkModal.nativeElement.style.display = 'block';
+ 
+}
   public myResume(): void {
 
    

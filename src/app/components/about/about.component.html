@@ -1,3 +1,17 @@
+<div class="img-modal" #artworkModal>
+ 
+    <div class="contain">
+
+      <img src="/assets/images/about/uri-deadhorse-canyon.jpg" alt='Uri Blayer' loading=lazy>
+      <!-- <h2>name:{{painting.name}} material:{{painting.material}} size:{{painting.size}} year:{{painting.year}} id:{{painting.id}}</h2> -->
+
+    </div>
+
+    <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
+
+  </div>
+
+
 <div class="wrapper">
   <h1>About Uri Blayer</h1>
   
@@ -15,8 +29,9 @@
         a love and accomplishment that sets him apart…”</i> Francis Cunningham, The New York Times 2004.
     </h3>
     <h5 id="myResume" (click)="myResume()">Download CV</h5>
-    <img src="/assets/images/about/uri-deadhorse-canyon.jpg" alt="" id="about-image">
-   <h6>Photo : Vito Palmisano</h6>
+      <img src="/assets/images/about/uri-deadhorse-canyon.jpg" alt="" id="about-image" (click)="openModal()">
+      <h6>Photo : Vito Palmisano</h6>
+
   </div>
  
 </div>

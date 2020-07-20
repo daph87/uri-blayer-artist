@@ -13,7 +13,7 @@
     <div class="contain">
 
       <img src="assets/images/{{painting.year}}/{{painting.src}}" alt='{{painting.name}}-Uri Blayer' loading=lazy>
-      <h2>name:{{painting.name}} material:{{painting.material}} size:{{painting.size}} year:{{painting.year}} id:{{painting.id}}</h2>
+      <h2>{{painting.name}} - {{painting.material}} - {{painting.size}} - {{painting.year}}</h2>
 
     </div>
     <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
@@ -32,7 +32,7 @@
     <ng-container *ngIf="paintings">
 
       <img *ngFor="let image of paintings" src="assets/images/{{image.year}}/{{image.src}}"
-        (click)="openModal(image.id)" alt="{{image.name}}-Uri Blayer">
+        (click)="openModal(image.id)" alt="{{image.name}}">
 
     </ng-container>
   </div>

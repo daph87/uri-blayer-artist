@@ -98,7 +98,8 @@
   #footer {
     .footer-menu {
       div {
-        width: 49%;
+        display: block;
+        width: 100%;
 
         .menuLinks {
           a {

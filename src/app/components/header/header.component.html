@@ -44,7 +44,8 @@
     <a routerLink="/contact" routerLinkActive="current" (click)="activateMenu()">Contact</a>
   </div>
 
-  <div ngClass="menuDropDown shadow-lg p-3 mb-5 rounded animated slideInRight" #articlesDropDown style="right: 0;">
+  <div ngClass="menuDropDown shadow-lg p-3 mb-5 rounded animated slideInRight" #articlesDropDown 
+  style="right: 0;margin-top: -19px;">
     <div (click)="displayArticels()">
       <div class="articles"></div>
       <span>Back To Menu</span>

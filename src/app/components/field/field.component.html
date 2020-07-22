@@ -2,8 +2,11 @@
  
     <div class="contain">
 
-      <img src="assets/images/on-the-field/{{painting.src}}" alt='{{painting.name}}-Uri Blayer' loading=lazy>
-      <h2>name:{{painting.name}} material:{{painting.material}} location:{{painting.location}} id:{{painting.id}}</h2>
+      <img src="assets/images/on-the-field/{{painting.src}}" alt='{{painting.location}} - Uri Blayer Artist' loading=lazy>
+      <h6 class="copyright">{{painting.copyright}}</h6>
+      <h2>{{painting.location}} - {{painting.year}}</h2>
+      
+
 
     </div>
 
@@ -26,8 +29,7 @@
   <div class="images">
     <ng-container *ngIf="paintings">
       <div *ngFor="let image of paintings">
-        <img src="assets/images/on-the-field/{{image.src}}" alt="uri blayer" (click)="openModal(image.id)">
-        <!-- <p>{{image.id}}</p> -->
+        <img src="assets/images/on-the-field/{{image.src}}" alt="{{image.location}} painting" (click)="openModal(image.id)">
       </div>
     </ng-container>
   </div>

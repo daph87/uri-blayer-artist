@@ -1,17 +1,17 @@
 [
     {
         "src":"portrait-man-ruban.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
+        "name":"Self Portrait at 45",
+        "material":"Oil on linen canvas",
+        "size":"25 x 20 cm",
         "year":"2017",
         "id":1030  
     },
     {
         "src":"portrait-uri-blayer-1997.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
+        "name":"Heather",
+        "material":"Oil on maslin",
+        "size":"16 x 20 cm",
         "year":"1997",
         "id":5
         
@@ -19,8 +19,8 @@
     {
         "src":"elise-portrait.jpg",
         "name":"Elise",
-        "material":"",
-        "size":"",
+        "material":"Oil on paper mounted on canvas",
+        "size":"40 x 30 cm",
         "year":"2002",
         "id":13
         
@@ -28,157 +28,157 @@
     {
         "src":"portrait-robin.jpg",
         "name":"Robin",
-        "material":"",
-        "size":"",
-        "year":"2002",
+        "material":"Oil on linen canvas",
+        "size":"30 x 20 cm",
+        "year":"2003",
         "id":16
         
     },
     {
         "src":"robin-uri-blayer.jpg",
-        "name":"Robin",
-        "material":"",
-        "size":"",
-        "year":"2002",
+        "name":"Robin II",
+        "material":"Oil on linen canvas",
+        "size":"24 x 16 cm",
+        "year":"2003",
         "id":17
         
     },
      {
         "src":"uri-blayer-portrait.jpg",
-        "name":"Portrait",
-        "material":"",
-        "size":"",
-        "year":"2002",
+        "name":"A seated man",
+        "material":"Oil on linen canvas",
+        "size":"50 x 25 cm",
+        "year":"2003",
         "id":20
         
     },
     {
         "src":"uri-blayre-portrait-2007.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
+        "name":"Self Portrait",
+        "material":"Oil on paper on wood",
+        "size":"16.5 x 16.5 cm",
         "year":"2007",
         "id":76
     },
 
     {
         "src":"woman-portrait-painting.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Anne",
+        "material":"Oil on linen canvas",
+        "size":"50 x 50 cm",
+        "year":"2016",
         "id":77
     }
     ,{
         "src":"young-woman-portrait.jpeg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Carmel",
+        "material":"Oil on linen canvas",
+        "size":"55 x 48 cm",
+        "year":"2016",
         "id":78
     },
     {
         "src":"woman-sitting-painting.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Portrait of Mom",
+        "material":"Oil on linen canvas",
+        "size":"80 x 60 cm",
+        "year":"2014",
         "id":79
     },{
         "src":"old-man-portrait.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Itzik",
+        "material":"Oil on linen canvas",
+        "size":"25 x 25 cm",
+        "year":"2016",
         "id":80
     },{
         "src":"portrait-man-uri-blayer.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Tom",
+        "material":"Oil on linen canvas",
+        "size":"50 x 45 cm",
+        "year":"2015",
         "id":82
     },
     
     
     {
         "src":"portrait-blond-girl.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Shailo",
+        "material":"Oil on linen canvas",
+        "size":"26 x 20 cm",
+        "year":"2014",
         "id":83
     },{
         "src":"old-woman-portrait.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Mom",
+        "material":"Oil on linen canvas",
+        "size":"30 x 25 cm",
+        "year":"2015",
         "id":84
     },
      {
         "src":"man-portrait-uri-blayer.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Auto Portrait",
+        "material":"Oil on linen canvas",
+        "size":"40 x 30 cm",
+        "year":"2010",
         "id":85
     },
     {
         "src":"farmer-portrait-painting.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Auto Portrait with a stick",
+        "material":"Oil on linen canvas",
+        "size":"20 x 15 cm",
+        "year":"2015",
         "id":86
     },{
         "src":"elegant-man-portrait.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Auto Portrait at 43",
+        "material":"Oil on linen canvas",
+        "size":"40 x 38 cm",
+        "year":"2015",
         "id":87
     },{
         "src":"man-with-beard-portrait.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Aram",
+        "material":"Oil on linen canvas",
+        "size":"30 x 25 cm",
+        "year":"2015",
         "id":88
     },
 
     {
         "src":"red-woman-portrait.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Eden",
+        "material":"Oil on linen canvas",
+        "size":"20 x 20 cm",
+        "year":"2015",
         "id":16570
     },
 
     {
         "src":"man-sitting-on-chair-painting.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Iddo",
+        "material":"Oil on linen canvas",
+        "size":"60 x 35 cm",
+        "year":"2015",
         "id":16571
     },
 
     {
         "src":"man-sitting-on-couch-painting.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Amit",
+        "material":"Oil on linen canvas",
+        "size":"60 x 40 cm",
+        "year":"2015",
         "id":16572
     },
     {
         "src":"teenager-portrait.jpg",
-        "name":"Untitled",
-        "material":"",
-        "size":"",
-        "year":"",
+        "name":"Yonatan",
+        "material":"Oil on linen canvas",
+        "size":"60 x 45 cm",
+        "year":"2016",
         "id":16573
     }
 

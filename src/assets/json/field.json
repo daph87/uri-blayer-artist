@@ -1,195 +1,167 @@
 [
     {
         "id": 1,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "2012-03-06 14.31.57.jpg",
-        "location": ""
+        "year": "2012",
+        "src": "masada-uri-blayer.jpg",
+        "location": "Israel, Masada"
     },
     {
         "id": 15,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_4344.jpg",
-        "location": ""
+        "year": "2016",
+        "src": "waimea-canyon-uri-blayer.jpg",
+        "location": "Hawaii, Waimea Canyon"
     },
     {
         "id": 16,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_4398.jpg",
-        "location": ""
+        "year": "2016",
+        "src": "canyon-in-hawaii.jpg",
+        "location": "Hawaii, Waimea Canyon"
     },
     {
         "id": 17,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_6416 (Small).jpg",
-        "location": ""
+        "year": "2011",
+        "src": "uri-blayer-artist-painter.jpg",
+        "location": "Hawaii"
     },
     {
         "id": 18,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_6418 (Small).jpg",
-        "location": ""
+        "year": "2011",
+        "src": "green-mountains-in-hawaii.jpg",
+        "location": "Hawaii"
     },
     {
         "id": 19,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_6428 (Small).jpg",
-        "location": ""
+        "year": "2011",
+        "src": "uri-blayer-landscape-painter.jpg",
+        "location": "Hawaii"
     },
     {
         "id": 21,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_7700.jpg",
-        "location": ""
+        "year": "2012",
+        "src": "masada-israeli-painter.jpg",
+        "location": "Israel, Masada"
     },
     {
         "id": 22,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG_9706_2.jpg",
-        "location": ""
+        "year": "2009",
+        "src": "uri-blayer-israeli-painter.jpg",
+        "location": "Hawaii"
     },
     {
         "id": 23,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "IMG-20141031-WA0006.jpg",
-        "location": ""
+        "year": "2015",
+        "src": "masada-during-the-day.jpg",
+        "location": "Israel, Upper Galilee"
     },
     {
         "id": 24,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Masada. Elazar.jpg",
-        "location": ""
+        "year": "2012",
+        "src": "buy-a-piece-of-art-israel.jpg",
+        "location": "Israel, Masada"
     },
     {
         "id": 25,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Painter (1).jpg",
-        "location": ""
+        "year": "2010",
+        "src": "painter-in-progress.jpg",
+        "location": "Hawaii"
     },
     {
         "id": 26,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "photo 1.jpg",
-        "location": ""
+        "year": "2016",
+        "src": "uri-blayer-landscape-artwork.jpg",
+        "location": "Hawaii"
     },
     {
         "id": 27,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "photo 2.jpg",
-        "location": ""
+        "year": "2016",
+        "src": "artist-painting.jpg",
+        "location": "Hawaii"
     },
     {
         "id": 29,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Uri - painter - good - 3.jpg",
-        "location": ""
+        "year": "2003",
+        "src": "uri-blayer-good-painter.jpg",
+        "location": "Hawaii, Maui"
     },
     {
         "id": 30,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Uri4549.jpg",
-        "location": ""
+        "year": "2010",
+        "src": "uri-blayer-painting-in-hawaii.jpg",
+        "location": "Utah, Bryce Canyon"
     },
     {
         "id": 31,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Uri _Deadhorse Canyon. UT .jpg",
-        "location": ""
+        "year": "2001",
+        "src": "uri-blayer-deadhorse-canyon-utah.jpg",
+        "location": "Utah, Canyon Land"
     },
     {
         "id": 32,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Uri4541.jpg",
-        "location": ""
+        "year": "2010",
+        "src": "bryce-canyon-painted.jpg",
+        "location": "Utah, Bryce Canyon"
     },
     {
         "id": 33,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "תצלום0148_001.jpg",
-        "location": ""
+        "year": "2014",
+        "src": "artist-painting-the-galilee.jpg",
+        "location": "Israel, Galilee"
     },
     {
         "id": 34,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "תצלום0149.jpg",
-        "location": ""
+        "year": "2014",
+        "src": "israel-galilee-uri-blayer-artwork.jpg",
+        "location": "Israel, Galilee"
     },{
         "id": 37,
-        "name": "Untitled",
-        "material": "oil on canvas",
+        "year": "2020",
         "src": "painter-on-the-field.jpeg",
-        "location": ""
+        "location": "Israel, Negev"
     },{
         "id": 38,
-        "name": "Untitled",
-        "material": "oil on canvas",
+        "year": "2017",
         "src": "on-the-field-uri-blayer-01.jpeg",
-        "location": ""
+        "location": "Australia", 
+        "copyright":"Photo by Esther Edmond"
     },{
         "id": 39,
-        "name": "Untitled",
-        "material": "oil on canvas",
+        "year": "2018",
         "src": "on-the-field-uri-blayer-02.jpeg",
-        "location": ""
+        "location": "Israel"
     },{
         "id": 40,
-        "name": "Untitled",
-        "material": "oil on canvas",
+        "year": "2020",
         "src": "on-the-field-uri-blayer-03.jpeg",
-        "location": ""
+        "location": "Israel, Negev"
     },{
         "id": 41,
-        "name": "Untitled",
-        "material": "oil on canvas",
+        "year": "2019",
         "src": "on-the-field-uri-blayer-04.jpeg",
-        "location": ""
+        "location": "Israel"
     },{
         "id": 42,
-        "name": "Untitled",
-        "material": "oil on canvas",
+        "year": "2018",
         "src": "on-the-field-uri-blayer-05.jpeg",
-        "location": ""
+        "location": "Israel"
     },{
         "id": 43,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Hawaii.png",
-        "location": ""
+        "year": "2018",
+        "src": "hawaii.png",
+        "location": "Hawaii, Hanalei"
     },{
         "id": 44,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Hawaii shipwreck.jpeg",
-        "location": ""
+        "year": "2020",
+        "src": "hawaii-shipwreck-painting.jpeg",
+        "location": "Hawaii"
     },{
         "id": 45,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "received_2992762607425668.jpeg",
-        "location": ""
+        "year": "2020",
+        "src": "amazing-painting-of-hawaii.jpeg",
+        "location": "Hawaii"
     },{
         "id": 46,
-        "name": "Untitled",
-        "material": "oil on canvas",
-        "src": "Anini paint.png",
-        "location": ""
+        "year": "2020",
+        "src": "anini-paint.png",
+        "location": "Hawaii"
     }
 ]

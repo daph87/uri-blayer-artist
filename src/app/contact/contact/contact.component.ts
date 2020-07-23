@@ -34,7 +34,6 @@ export class ContactComponent implements OnInit {
       this.conditionsModal.nativeElement.style.display = 'block'
     } else {
       if (emailValidation.test(newContact.email)) {
-        console.log('contact: ', newContact);
         this.conditionsModal.nativeElement.style.display = 'block'
         // modal messages
         this.buttonMessage = 'Ok';

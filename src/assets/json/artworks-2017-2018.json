@@ -283,5 +283,23 @@
     "size": "66 x 86 cm",
     "year": "2018",
     "id": 1074
+  },
+  {
+    "src": "australia-lennox-head-painting.jpg",
+    "name": "Australia - Lennox Head",
+    "material": "Oil on linen canvas",
+    "size": "76 x 86 cm",
+    "year": "2018",
+    "id": 1075
+  },  {
+    "src": "beautiful-painting-australia-beach.jpg",
+    "name": "Australia - The Pass",
+    "material": "Oil on linen canvas",
+    "size": "80 x 90 cm",
+    "year": "2018",
+    "id": 1076
   }
+
+
+  
 ]
